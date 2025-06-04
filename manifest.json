@@ -1,0 +1,6 @@
+{
+  "name": "Freshdesk Ticket Creator",
+  "description": "An app to create Freshdesk tickets from Intercom conversations.",
+  "url": "https://your-canvas-app-url/index.html",
+  "capabilities": ["canvas"]
+}
