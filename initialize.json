@@ -6,8 +6,16 @@
           "type": "form",
           "id": "ticketForm",
           "components": [
-            { "type": "text", "id": "subject", "label": "Subject" },
-            { "type": "textarea", "id": "description", "label": "Description" },
+            {
+              "type": "text",
+              "id": "subject",
+              "label": "Subject"
+            },
+            {
+              "type": "textarea",
+              "id": "description",
+              "label": "Description"
+            },
             {
               "type": "button",
               "label": "Create Ticket",
@@ -18,5 +26,3 @@
         }
       ]
     }
-  }
-}

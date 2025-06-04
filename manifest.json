@@ -1,25 +1,7 @@
 {
-  "type": "flow",
-  "version": "1.0",
-  "title": "Create Freshdesk Ticket",
-  "fields": [
-    {
-      "type": "text",
-      "id": "ticket_subject",
-      "label": "Ticket Subject",
-      "required": true
-    },
-    {
-      "type": "textarea",
-      "id": "ticket_description",
-      "label": "Ticket Description",
-      "required": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "submit",
-      "label": "Create Ticket"
-    }
-  ]
+  "canvas": {
+    "content_url": "https://e40282d0.intercom-canvas-app.pages.dev/index.html"
+  },
+  "initialize_url": "https://e40282d0.intercom-canvas-app.pages.dev/initialize.json",
+  "submit_url": "https://ticket-creator-worker.intercomsree.workers.dev"
 }
